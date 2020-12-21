@@ -5,15 +5,15 @@ pa , r ,t */
 
 int main(void)
 {
-  int p,r,t;
+  float p,r,t;
   float i;
 
   printf("Enter the values of P : %d\n", p);
-  scanf("%d", &p);
+  scanf("%f", &p);
   printf("Enter the values of R : %d\n", r);
-  scanf("%d", &r);
+  scanf("%f", &r);
   printf("Enter the values of T : %d\n", t);
-  scanf("%d", &t);
+  scanf("%f", &t);
 
   i = p*r*t/100.0;
 
