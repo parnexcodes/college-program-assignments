@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int temp(void)
+int main(void)
 {
   float far;
   printf("Enter fahrenheit value : %f", far);
