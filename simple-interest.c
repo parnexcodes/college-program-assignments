@@ -8,11 +8,11 @@ int main(void)
   int p,r,t;
   float i;
 
-  printf("Enter the values of P : %d", p);
+  printf("Enter the values of P : %d\n", p);
   scanf("%d", &p);
-  printf("Enter the values of R : %d", r);
+  printf("Enter the values of R : %d\n", r);
   scanf("%d", &r);
-  printf("Enter the values of T : %d", t);
+  printf("Enter the values of T : %d\n", t);
   scanf("%d", &t);
 
   i = p*r*t/100.0;
