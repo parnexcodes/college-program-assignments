@@ -5,7 +5,7 @@
 int main(void)
 {
   float far;
-  printf("Enter fahrenheit value : %f", far);
+  printf("Enter fahrenheit value : %f\n", far);
   scanf("%f", &far);
   
   float cel;
