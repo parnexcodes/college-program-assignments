@@ -5,7 +5,7 @@
 int main(void)
 {
   float radius;
-  printf("Enter the value of radius : %f/n" ,radius);
+  printf("Enter the value of radius : %f\n" ,radius);
   scanf("%d", &radius);
 
   float area;
@@ -14,7 +14,7 @@ int main(void)
   float perimeter;
   perimeter = 2*(22/7.0)*radius;
 
-  printf("The given area is : %0.2f/n", area);
+  printf("The given area is : %0.2f\n", area);
   printf("The given perimeter is : %0.2f", perimeter);
   return 0;
 }
