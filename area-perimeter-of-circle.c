@@ -13,7 +13,7 @@ int main(void)
   float perimeter;
   perimeter = 2*(22/7.0)*radius;
 
-  printf("The given area is : %f/n", area);
-  printf("The given perimeter is : %f", perimeter);
+  printf("The given area is : %0.2f/n", area);
+  printf("The given perimeter is : %0.2f", perimeter);
   return 0;
 }
