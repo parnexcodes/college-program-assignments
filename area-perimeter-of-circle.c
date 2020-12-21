@@ -6,6 +6,7 @@ int main(void)
 {
   float radius;
   printf("Enter the value of radius : %f/n" ,radius);
+  scanf("%d", &radius);
 
   float area;
   area = (22/7.0)*radius*radius;
