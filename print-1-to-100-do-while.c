@@ -6,11 +6,11 @@ int main()
 
 int a;
 a = 1;
-do
+
+while (a <= 100)
 {
-    printf("%d", a);
-    a += 1;
-} 
-while (a <= 100);
+    printf("%d\n", a);
+    a += 2;
+}
 return 0;
 }
