@@ -1,4 +1,6 @@
 /* print odd numbers till 100 */
+/* print table of 2 */
+/* print even numbers from 1 to 100 using do while */
 
 #include <stdio.h>
 int main()
