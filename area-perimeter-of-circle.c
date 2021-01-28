@@ -5,7 +5,7 @@
 int main(void)
 {
   float radius;
-  printf("Enter the value of radius : %f\n" ,radius);
+  printf("Enter the value of radius : " ,radius);
   scanf("%f", &radius);
 
   float area;
